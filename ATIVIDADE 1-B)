@@ -1,0 +1,19 @@
+package sem2;
+
+public class ObjetosAviao {
+
+	public static void main(String[] args) {
+		
+	Aviao aviao = new Aviao();
+	   aviao.setMarca("Gol");
+	   aviao.setModelo("747");
+	   aviao.setCor("White");
+	   aviao.setAno("2020");
+
+	   System.out.println("Marca: " + aviao.getMarca());
+	   System.out.println("Modelo: " + aviao.getModelo());
+	   System.out.println("Cor: " + aviao.getCor());
+	   System.out.println("Ano: " + aviao.getAno());
+	   
+	}
+}
