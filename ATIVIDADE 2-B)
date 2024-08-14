@@ -1,0 +1,111 @@
+package sem2;
+
+public class ObjetosAnimal {
+
+	public static void main(String[] args) {
+		
+	Animal animal1 = new Animal();
+	Animal animal2 = new Animal();
+	Animal animal3 = new Animal();
+	Animal animal4 = new Animal();
+	Animal animal5 = new Animal();
+	Animal animal6 = new Animal();
+	Animal animal7 = new Animal();
+	
+	
+	
+	animal1.setEspecie("Cachorro");
+	animal1.setIdade("5");
+	animal1.setCor("Cinza");
+	animal1.setNome("Marley");
+
+	System.out.println("Espécie: " + animal1.getEspecie());
+	System.out.println("Idade: " + animal1.getIdade());
+	System.out.println("Cor: " + animal1.getCor());
+	System.out.println("Nome: " + animal1.getNome());
+	System.out.println("O cachorro esta: " + animal1.latir());	   
+		
+	System.out.println("----------------------------------------");	
+	
+	animal2.setEspecie("Galhinha");
+	animal2.setIdade("3");
+	animal2.setCor("Marrom");
+	animal2.setNome("Lilica");
+
+	System.out.println("Espécie: " + animal2.getEspecie());
+	System.out.println("Idade: " + animal2.getIdade());
+	System.out.println("Cor: " + animal2.getCor());
+	System.out.println("Nome: " + animal2.getNome());
+	System.out.println("A galinha esta: " + animal2.cantar());	 
+	
+	System.out.println("----------------------------------------");
+	
+	animal3.setEspecie("Pintinho");
+	animal3.setIdade("1");
+	animal3.setCor("Amarelo");
+	animal3.setNome("Frederico");
+
+	System.out.println("Espécie: " + animal3.getEspecie());
+	System.out.println("Idade: " + animal3.getIdade());
+	System.out.println("Cor: " + animal3.getCor());
+	System.out.println("Nome: " + animal3.getNome());
+	System.out.println("O pintinho esta: " + animal3.piar());	 
+	
+	System.out.println("----------------------------------------");
+	
+	animal4.setEspecie("Coelho");
+	animal4.setIdade("4");
+	animal4.setCor("Branco");
+	animal4.setNome("Jorel");
+
+	System.out.println("Espécie: " + animal4.getEspecie());
+	System.out.println("Idade: " + animal4.getIdade());
+	System.out.println("Cor: " + animal4.getCor());
+	System.out.println("Nome: " + animal4.getNome());
+	System.out.println("O coelho esta: " + animal4.pular());	 
+	
+	System.out.println("----------------------------------------");
+	
+	animal5.setEspecie("Cabra");
+	animal5.setIdade("5");
+	animal5.setCor("Preto");
+	animal5.setNome("Cabrito");
+
+	System.out.println("Espécie: " + animal5.getEspecie());
+	System.out.println("Idade: " + animal5.getIdade());
+	System.out.println("Cor: " + animal5.getCor());
+	System.out.println("Nome: " + animal5.getNome());
+	System.out.println("A cabra esta: " + animal5.mugir());
+	
+	System.out.println("----------------------------------------");
+	
+	animal6.setEspecie("Bezerro");
+	animal6.setIdade("2");
+	animal6.setCor("Branco e Preto");
+	animal6.setNome("Joilson");
+
+	System.out.println("Espécie: " + animal6.getEspecie());
+	System.out.println("Idade: " + animal6.getIdade());
+	System.out.println("Cor: " + animal6.getCor());
+	System.out.println("Nome: " + animal6.getNome());
+	System.out.println("O bezerro esta: " + animal6.berrar());
+	
+	System.out.println("----------------------------------------");
+	
+	animal7.setEspecie("Vaca");
+	animal7.setIdade("5");
+	animal7.setCor("Branco e Preto");
+	animal7.setNome("Ayra");
+
+	System.out.println("Espécie: " + animal7.getEspecie());
+	System.out.println("Idade: " + animal7.getIdade());
+	System.out.println("Cor: " + animal7.getCor());
+	System.out.println("Nome: " + animal7.getNome());
+	System.out.println("A vaca esta: " + animal7.mugir());
+	
+	System.out.println("----------------------------------------");
+
+	
+	
+	}
+}
