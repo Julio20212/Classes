@@ -1,0 +1,34 @@
+package sem2;
+
+public class ObjetosCadeira {
+
+	public static void main(String[] args) {
+		
+	Cadeira cadeira1 = new Cadeira();
+	Cadeira cadeira2 = new Cadeira();
+		
+	cadeira1.setCor("Preto");	
+	cadeira1.setModelo("Gamer");	
+	cadeira1.setMarca("Pichau");	
+	cadeira1.setMaterial("Couro");	
+		
+	System.out.println("----- CADEIRA 1 -----");
+	System.out.println("Cor: " +cadeira1.getCor());
+	System.out.println("Modelo: " +cadeira1.getModelo());
+	System.out.println("Marca: " +cadeira1.getMarca());
+	System.out.println("Material: " +cadeira1.getMaterial());
+	System.out.println("A cadeira esta: " + cadeira1.rodar());
+		
+	cadeira2.setCor("Branco");	
+	cadeira2.setModelo("Ergonômica");	
+	cadeira2.setMarca("Elements Vertta");	
+	cadeira2.setMaterial("Poliéster");	
+		
+	System.out.println("----- CADEIRA 2 -----");
+	System.out.println("Cor: " +cadeira2.getCor());
+	System.out.println("Modelo: " +cadeira2.getModelo());
+	System.out.println("Marca: " +cadeira2.getMarca());
+	System.out.println("Material: " +cadeira2.getMaterial());
+	System.out.println("A cadeira: " + cadeira2.cair());	
+		}
+	}
