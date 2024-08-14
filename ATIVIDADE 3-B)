@@ -1,0 +1,38 @@
+package sem2;
+
+public class ObjetosCliente {
+
+	public static void main(String[] args) {
+		
+	Cliente cliente1 = new Cliente();
+	Cliente cliente2 = new Cliente();
+	
+	cliente1.setNome("Robson");	
+	cliente1.setTelefone("15 99843-4540");	
+	cliente1.setCpf("234-274-978-10");	
+	cliente1.setRg("12.157.139.0");	
+	cliente1.setId("001");
+	
+	System.out.println("----- OBJETO 1 -----");
+	System.out.println("Nome: " +cliente1.getNome());
+	System.out.println("Telefone: " +cliente1.getTelefone());
+	System.out.println("Cpf: " +cliente1.getCpf());
+	System.out.println("Rg: " +cliente1.getRg());
+	System.out.println("Id: " +cliente1.getId());
+	System.out.println("O cliente esta: " + cliente1.comprar());
+	
+	cliente2.setNome("Osvaldo");	
+	cliente2.setTelefone("15 9941-5489");	
+	cliente2.setCpf("87.351.894.0");	
+	cliente2.setRg("002");
+	
+	System.out.println("----- OBJETO 2 -----");
+	System.out.println("Nome: " +cliente2.getNome());
+	System.out.println("Telefone: " +cliente2.getTelefone());
+	System.out.println("Cpf: " +cliente2.getCpf());
+	System.out.println("Rg: " +cliente2.getRg());
+	System.out.println("Id: " +cliente2.getId());
+	System.out.println("O cliente esta: " + cliente2.experimentar());
+		
+	}
+}
