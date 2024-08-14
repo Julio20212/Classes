@@ -1,0 +1,61 @@
+package sem2;
+
+public class Animal {
+
+	String cor;
+    String especie;
+    String nome;
+    String idade;
+     
+    public String getCor() {
+        return cor;
+    }
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+    public String getIdade() {
+        return idade;
+    }
+    public void setIdade(String idade) {
+        this.idade = idade;
+    }
+    public String getEspecie() {
+        return especie;    
+    }
+    public void setEspecie(String especie) {
+		this.especie = especie;
+    }
+    public String getNome() {
+        return nome;    
+    }
+    public void setNome(String nome) {
+		this.nome = nome;
+    }
+    public String latir() {
+    	return "Latindo";
+    }
+    public String dormir() {
+    	return "Dormindo";
+	}
+    public String comer() {
+    	return "Comendo";
+    }
+    public String movimentar() {
+    	return "Movimentando";
+    }
+    public String pular() {
+    	return "Pulando";
+    }
+    public String cantar() {
+    	return "Cantorolando";
+    }
+    public String mugir() {
+    	return "Mugindo";
+    }
+    public String berrar() {
+    	return "Berrando";
+    }
+    public String piar() {
+    	return "Piando";
+    }
+}
